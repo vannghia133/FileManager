@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionDelete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionRename"
+        android:icon="@drawable/ic_rename"
+        android:title="@string/action_rename"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionCopy"
+        android:icon="@drawable/ic_copy"
+        android:title="@string/action_copy"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionMove"
+        android:icon="@drawable/ic_move"
+        android:title="@string/action_move"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionSend"
+        android:icon="@drawable/ic_send"
+        android:title="@string/action_send"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionSort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom" />
+
+</menu>
